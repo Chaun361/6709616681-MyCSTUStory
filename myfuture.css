@@ -96,55 +96,58 @@ ul {
     padding-left: 40px;
 }
 
-
-.timeline-container {
-    width: 1300px;
+.hero-con {
+    width: 1000px;
     height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: auto;
-}
-
-.journey-card {
-    width: 300px;
-    margin: 5px;
-    height: inherit;
-    border-radius: 15px;
-    overflow: hidden;
+    gap: 15px;
 }
 
 .img-con {
-    height: 250px;
-    width: 100%;
+    width: 500px;
+    height: inherit;
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 img {
+    object-fit: cover;
     width: inherit;
     height: inherit;
-    object-fit: cover;
 }
 
 .text-con {
-    width: 100%;
-    height: 250px;
     background-color: white;
+    width: 500px;
+    height: inherit;
+    border-radius: 15px;
 }
 
-.text-con p {
-    color: #111111;
-}
-
-.timeline-text {
+.text {
     padding: 1rem;
-    overflow: hidden;
 }
 
-.timeline-text h2 {
-    color: black;
+.text h2,
+p {
+    color: #000;
 }
 
-.timeline-text p {
+.text p {
     margin-top: 1rem;
+}
+
+.link-h2 {
+    text-align: center;
+    animation-name: sharte;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.link {
+    color: white;
 }
 
 footer {
